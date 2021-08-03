@@ -1,0 +1,144 @@
+*{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+header{
+    background-color: rgb(6,39,66);
+    padding: 20px 40px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.logo{
+    height: 20px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav>li>a {
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav>li> :hover{
+    color: #e6b422;
+    font-size: 20px;
+}
+
+li + li {
+    border-left: 1px solid white;
+}
+
+/* 縦向きにしたい */
+.title{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 100px;
+    padding-left: 1200px;
+}
+
+.background{
+    background-image: url('../img/hktreks-JCETCqXkl5w-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #e6b422;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.weather{
+    padding-top: 500px;
+    padding-left: 1000px;
+}
+
+.day{
+    background-color: rgb(6,39,66);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 50px;
+}
+
+.day:hover{
+    color: #e6b422;
+}
+
+h1{
+    text-align: left;
+    font-size: 40px ;
+    font-weight: bold;
+    padding: 30px;
+}
+
+/* 大きさ変えたい */
+#carouselExampleIndicators{
+    padding: 50px;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+main{
+    background-color:rgb(182, 249, 248);
+}
+
+
+
+.sub-main{
+    display: flex;
+}
+
+
+#programming,#gallery,#map,#form{
+    width: 100%;
+}
+
+main{
+    overflow: hidden;
+}
+
+#form{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    padding-top: 70px;
+    padding-right: 100px;
+
+}
+
+
+.map-image{
+    padding-left: 100px;
+}
+
+.contact-wrap{
+    flex-direction: column;
+}
+
+
+footer{
+    background-color: rgb(6,39,66);
+    color: #e6b422;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 20px;
+}
+
