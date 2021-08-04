@@ -41,7 +41,7 @@ li + li {
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     font-size: 100px;
-    padding-left: 1200px;
+    padding-left: 80%;
 }
 
 .background{
@@ -56,9 +56,29 @@ li + li {
     flex-direction: column;
 }
 
-.weather{
-    padding-top: 500px;
-    padding-left: 1000px;
+.rank{
+    display: flex;
+}
+
+
+.mini{
+    font-size: 30px;
+    text-align: center;
+}
+
+#weather-block{
+    padding-top: 3%;
+    padding-right: 20%;
+}
+
+#programming,#weather-block{
+    display: flex;  
+}
+
+
+.row{
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .day{
