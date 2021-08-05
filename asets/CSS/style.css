@@ -63,6 +63,11 @@ li + li {
     font-size: 100px;
     padding-left: 80%;
 }
+@media screen and (max-width:780px) { 
+    .title { 
+        font-size: 60px;
+    }
+}
 
 .background{
     background-image: url('../img/hktreks-JCETCqXkl5w-unsplash.jpg');
@@ -75,6 +80,11 @@ li + li {
     align-items: flex-end;
     flex-direction: column;
 }
+@media screen and (max-width:780px) { 
+    .background { 
+        height: 20vh;
+    }
+}
 
 .rank{
     display: flex;
@@ -85,10 +95,21 @@ li + li {
     font-size: 30px;
     text-align: center;
 }
+@media screen and (max-width:780px) { 
+    .mini { 
+        font-size: 10px;
+    }
+}
 
 #weather-block{
     padding-top: 3%;
     padding-right: 20%;
+}
+
+@media screen and (max-width:780px) { 
+    .weather { 
+        height: 10vh;
+    }
 }
 
 #programming,#weather-block{
