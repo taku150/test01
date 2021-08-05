@@ -65,7 +65,7 @@ li + li {
 }
 @media screen and (max-width:780px) { 
     .title { 
-        font-size: 60px;
+        font-size: 40px;
     }
 }
 
@@ -82,7 +82,7 @@ li + li {
 }
 @media screen and (max-width:780px) { 
     .background { 
-        height: 20vh;
+        height: 70vh;
     }
 }
 
@@ -128,6 +128,12 @@ li + li {
     text-align: center;
     padding: 40px 0;
     font-size: 50px;
+}
+@media screen and (max-width:780px) { 
+    .day { 
+        padding: 30px 0;
+        font-size: 30px;
+    }
 }
 
 .day:hover{
