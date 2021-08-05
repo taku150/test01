@@ -9,9 +9,19 @@ header{
     /* justify-content: space-between; */
     align-items: center;
 }
+@media screen and (max-width:780px) { 
+    header { 
+        padding: 10px 20px;
+    }
+}
 
 .logo{
     height: 20px;
+}
+@media screen and (max-width:780px) { 
+    .logo { 
+        height: 10px;
+    }
 }
 
 .nav{
@@ -26,10 +36,20 @@ header{
     flex-grow: 1;
     text-align: center;
 }
+@media screen and (max-width:780px) { 
+    .nav>li>a { 
+        font-size: 10px;
+    }
+}
 
 .nav>li> :hover{
     color: #e6b422;
     font-size: 20px;
+}
+@media screen and (max-width:780px) { 
+    .nav>li> :hover { 
+        font-size: 10px;
+    }
 }
 
 li + li {
@@ -99,6 +119,11 @@ h1{
     font-weight: bold;
     padding: 30px;
 }
+@media screen and (max-width:780px) { 
+    h1 { 
+        font-size: 20px;
+    }
+}
 
 /* 大きさ変えたい */
 #carouselExampleIndicators{
@@ -110,11 +135,22 @@ p{
     margin-left: 100px;
     padding-bottom: 15%;
 }
+@media screen and (max-width:780px) { 
+    p { 
+        font-size: 10px;
+    }
+}
+
 
 h2{
     font-size: 40px;
     font-weight: bold;
     padding: 30px;
+}
+@media screen and (max-width:780px) { 
+    h2 { 
+        font-size: 20px;
+    }
 }
 
 main{
@@ -162,4 +198,6 @@ footer{
     padding: 40px 0;
     font-size: 20px;
 }
+
+
 
